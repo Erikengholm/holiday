@@ -1,0 +1,100 @@
+.box {
+display: flex;
+  background: rgba(0,0,0, 1); 
+  height: 1000px;
+  width: 100%;
+}
+body{
+   margin: 0px;
+   padding: 0px;
+
+}
+
+
+.back {
+	background-image: url('.././img/background_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    max-width:100%;
+    max-height: 100%;
+}
+
+table{
+	border: 0px solid black;
+    border-spacing:15px 50px; 
+
+ } 
+
+td{  
+  background:rgba(255,255,255, 0.6); 
+  border-radius: 15px; 
+  border: 1px solid black;
+
+}
+
+td:hover {
+ 	background:rgba(255,255,255, 0.8); 
+}
+
+p{
+  font-family: "Times New Roman", Times, serif;
+
+}
+.flex-container {
+  display: flex;
+  background: rgba(0,255,255, 0.8); 
+  position: relative;
+  bottom: 5px;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+}
+.alignflexbottom{
+	  align-self: flex-end;
+}
+.scrolltable{
+	overflow-y: auto;
+	position: sticky; 
+	top: 75px ;
+}
+.main{
+	width :60%; 
+    height : 1200px ;
+
+}
+.info{
+  display: flex;
+  background:rgba(255,255,255, 0.6);
+  flex-direction: row-reverse;
+  position: absolute;
+  left: 20%;
+  margin :25px;
+  width: 57.5%; 
+  height: 330px;
+  border-radius: 15px; 
+  border: 1px solid black;
+  }
+  .info:hover{
+  	  background:rgba(255,255,255, 0.8);
+  }
+} 
+.placeholder{
+	
+}
+.moreinfo{ 
+  border: none;
+  background:inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.lessinfo{
+  display: none;
+  border: none;
+  background: inherit;
+  height: 
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
