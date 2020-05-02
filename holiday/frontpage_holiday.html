@@ -1,148 +1,127 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>
-         do like icarus and go to cyperus
-      </title>
-      <link rel="stylesheet" type="text/css" href='styles/style.css'>
-   </head>
-   <body>
-      <div class="back">        
-         <section>
-            <table align="center">
-               <tr >
-                  <td width=200px align="center">
-                     <p> history place menu </p>
-                  </td>
-                  <td width=200px>
+
+<head>
+    <title>
+        do like icarus and go to cyperus
+    </title>
+    <link rel="stylesheet" type="text/css" href='styles/style.css'>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="styles/myjq.js"></script>
+
+</head>
+
+<body>
+    <div class="back">
+        <div class="Meny">
+            <div class="meny-box">
+                <b>
+                     <p align="center"> Home </p></b>
+            </div>
+
+            <div class="meny-box">
+                <b>
                      <p align="center">travel menu </p>
-                  </td>
-                  <td width=200px>
-                     <p align="center">tourist information</p>
-                  </td>
-                  <td width=200px>
-                     <p align="center"> Events menu </p>
-                  </td>
-               </tr>
-            </table>
-         </section>
-        
-         <H2 align ="center">"Its only once you start widtheing your horizon you can find paradise"<br></H2>
-         <footer>
-            <p align ="center">H.P lovecraft</p>
-         </footer>
-         <table class="scrolltable" align="left" width="200px">
-            <tr class="verticaltable">
-               <td width=100px height="80px" align="center">
-                  <p> searchbar </p>
-               </td>
-            </tr>
-            <tr >
-               <td width=100px height="80px" align="center">
-                  <p> weather </p>
-               </td>
-            </tr>
-            <tr >
-               <td width=100px height="80px" align="center">
-                  <p> current valuta </p>
-               </td>
-            </tr>
-         </table>
-         <table class="scrolltable" align="right" width="200px">
-            <tr >
-               <td width=100px height="80px" align="center">
-                  <p> news 1 </p>
-               </td>
-            </tr>
-            <tr >
-               <td width=100px height="80px" align="center">
-                  <p> news 2 </p>
-               </td>
-            </tr>
-            <tr >
-               <td width=100px height="80px" align="center">
-                  <p> news 3 </p>
-               </td>
-            </tr>
-         </table>
-         <div id="i1" class="info">
+                 </b>
+            </div>
+            <div class="meny-box">
+                <b>
+                     <p>tourist information</p>
+                 </b>
+            </div>
+            <div class="meny-box">
+                <b>
+                     <p align="center"> Events menu </p></b>
+            </div>
+            <div class="meny-box">
+                <a href="log_sign_in.html">
+                    <b>
+                     <p align="center"> log in <br> sing in </p> 
+                 </b>
+                </a>
+
+            </div>
+
+        </div>
+
+        <H2 align="center">"Its only once you start widtheing your horizon you can find paradise"<br></H2>
+        <footer>
+            <p align="center">H.P lovecraft</p>
+        </footer>
+        <div class="container" style="margin: 3%;margin-bottom: 0%">
+        	<div class="row">
+        		    <div class="col-2">
+
+        <div class="scrolltable" align="left">
+            <div class="side-Box-search"  align="center">
+            	                <input align="center" type="text" class="search" name="search" placeholder="Search.." />
+            </div>
+            <div class="side-Box" align="center">
+                <p> weather </p>
+            </div>
+            <div class="side-Box" align="center">
+                <p> current valuta </p>
+            </div>
+        </div>
+        </div>
+            <div class="col-8">
+<div class="main-box" align="center">
+        <div id="info-box-1" class="info">
             <p> big news 1 </p>
             <div class="alignflexbottom">
-               <button class="moreinfo" id ="b1" onClick ="getMoreInfo('i1')">read more</button>
-               <button class="lessinfo" id ="b2" onClick ="lessinfo('i1')">read less</button>
+                <button class="moreinfo" id="b1">read more</button>
+                <button class="lessinfo" id="b2">read less</button>
             </div>
-         </div>
-         <table  align="center" class="main" width="800px" height = "1200px">
-            <tr >          
-            </tr>
-            <tr >
-               <div class = "info" id="i2" style="top:105%;">
-                  <p> big news 2 </p>
-                  <div class="alignflexbottom">
-                     <button class="moreinfo" id ="b3" onClick ="getMoreInfo('i2')">read more</button>
-                     <button class="lessinfo" id ="b4" onClick ="lessinfo('i2')">read less</button>
-                  </div>
-               </div>
-            </tr>
-            <tr >
-               <div class = "info" id="i3" style="top:170%;">
-                  <p> big news 3 </p>
-                  <div class="alignflexbottom">
-                     <button class="moreinfo" id ="b5" onClick ="getMoreInfo('i3')">read more</button>
-                     <button class="lessinfo" id ="b6" onClick ="lessinfo('i3')">read less</button>
-                  </div>
-               </div>
-            </tr>
-         </table>
-         <div class="flex-container">
+        </div>
+
+        <div class="info" id="info-box-2">
+            <p> big news 2 </p>
+            <div class="alignflexbottom">
+                <button class="moreinfo" id="b3">read more</button>
+                <button class="lessinfo" id="b4">read less</button>
+            </div>
+        </div>
+
+        <div class="info" id="info-box-3">
+            <p> big news 3 </p>
+            <div class="alignflexbottom">
+                <button class="moreinfo" id="b5">read more</button>
+                <button class="lessinfo" id="b6">read less</button>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="col-2">
+
+         <div class="scrolltable" align="right">
+            <div class="side-Box" align="center">
+            	<p> News 1</p>
+            </div>
+            <div class="side-Box" align="center">
+                <p> News 2 </p>
+            </div>
+            <div class="side-Box" align="center">
+                <p> News 3 </p>
+            </div>
+        </div>
+        </div>
+        <div class="flex-container">
             <p><b>ABOUT US <br>
-               Telefon</b> +46-785-5545 <br>
-               <b>Email</b> nigera.prince@scam.tr<br>
-               <b>location</b> this website is all we have
+               Telefon</b> +46-785-5545
+                <br>
+                <b>Email</b> nigera.prince@scam.tr
+                <br>
+                <b>location</b> this website is all we have
             </p>
-         </div>
-      </div>
-   </body>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
 </html>
-<script>
-   function getMoreInfo(s) {
-     document.getElementById(s).style.height ="990px";
-     if(s=="i1"){
-     document.getElementById("i2").style.display= "none";
-     document.getElementById("i3").style.display= "none";
-     document.getElementById("b1").style.display= "none";
-     document.getElementById("b2").style.display= "inline-block";
-   }
-     if(s=="i2"){
-     	document.getElementById("i1").style.display= "none";
-    	document.getElementById("i3").style.display= "none";
-        document.getElementById("b3").style.display= "none";
-        document.getElementById("b4").style.display= "inline-block";
-     }
-     if(s=="i3"){
-     	document.getElementById("i1").style.display= "none";
-    	document.getElementById("i2").style.display= "none";
-        document.getElementById("b5").style.display= "none";
-        document.getElementById("b6").style.display= "inline-block";
-     }
-
-   
-   
-   
-     
-   }
-   function lessinfo(s){
-     document.getElementById(s).style.height ="330px";
-     document.getElementById("i1").style.display= "flex";
-     document.getElementById("i2").style.display= "flex";
-     document.getElementById("i3").style.display= "flex";
-     document.getElementById("b1").style.display= "inline-block";
-     document.getElementById("b3").style.display= "inline-block";
-     document.getElementById("b5").style.display= "inline-block";
-     document.getElementById("b2").style.display= "none";
-          document.getElementById("b4").style.display= "none";
-     document.getElementById("b6").style.display= "none";
-
-    
-   }
-</script>
