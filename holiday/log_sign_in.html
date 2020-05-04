@@ -1,144 +1,130 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>
-         do like icarus and go to cyperus
-      </title>
-      <link rel="stylesheet" type="text/css" href='styles/style.css'>
-   </head>
-   <body>
-      <div class="back">        
-         <section>
-            <table width="100%" align="center">
-               <tr >
-                  <td width=20% align="center">
-                     <a href="frontpage_holiday.html">
-                     <p> Home </p>
-                  </a>
-                  </td>
-                  <td width=20%>
-                     <p align="center">travel menu </p>
-                  </td>
-                  <td width=20%>
-                     <p align="center">tourist information</p>
-                  </td>
-                  <td width=20%>
-                     <p align="center"> Events menu </p>
-                  </td>
-                  <td width=20%>
-                     <p align="center"> log in <br> sing in </p>
-                  </td>
-               </tr>
-            </table>
-         </section>
-        
-         <H2 align ="center">"Its only once you start widtheing your horizon you can find paradise"<br></H2>
-         <footer>
-            <p align ="center">H.P lovecraft</p>
-         </footer>
-         <table class="scrolltable" align="left" width="200px">
-            <tr class="verticaltable">
-               <td class="side-Box" align="center">
-                  <input type="text" name="signin" placeholder="Search.."/>
-               </td>
-            </tr>
-            <tr >
-               <td class="side-Box" align="center">
-                  <p> weather </p>
-               </td>
-            </tr>
-            <tr >
-               <td class="side-Box" align="center">
-                  <p> current valuta </p>
-               </td>
-            </tr>
-         </table>
-         <div class="scrolltable" align="right">
-            <tr >
-               <td class="side-Box" align="center">
-                  <p> news 1 </p>
-               </td>
-            </tr>
-            <tr >
-               <td class="side-Box" align="center">
-                  <p> news 2 </p>
-               </td>
-            </tr>
-            <tr >
-               <td class="side-Box" align="center">
-                  <p> news 3 </p>
-               </td>
-            </tr>
-         </table>
-         <div id="login">
-                        <h2><b>logga in</b>  
-                        </h2>
-
-
-            <div class="flex_item">
-               <p>
-                  <b>
-                  Användarnamn</b>
-               </p>
+<head>
+   <title>do like icarus and go to cyperus</title>
+   <link href='styles/style.css' rel="stylesheet" type="text/css">
+   <meta charset="utf-8">
+   <meta content="width=device-width, initial-scale=1" name="viewport">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+   </script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+   </script>
+   <script src="script/myjq.js" type="text/javascript">
+   </script>
+   <script src="script/script.js" type="text/javascript">
+   </script>
+</head>
+<body onload="valuta()">
+   <div class="back">
+      <div class="Meny">
+         <div class="meny-box">
+            <b><a href="frontpage_holiday.html">
+            <p align="center"><b>Home</b></p></a></b>
          </div>
-        
-          <div class="flex_item">
-               
-               <input type="text" name="login"/>
+         <div class="meny-box">
+            <b></b>
+            <p align="center"><b>travel menu</b></p><b></b>
          </div>
-          <div class="flex_item">
-                 <p>
-                  <b>
-                  Lösenord</b>
-               </p>
+         <div class="meny-box">
+            <b></b>
+            <p><b>tourist information</b></p>
          </div>
-         <div class="flex_item">
-             
-               <input type="password" name="login"/>
+         <div class="meny-box">
+            <b></b>
+            <p align="center"><b>Events menu</b></p><b></b>
          </div>
-           <div class="alignflexbottom">
-               <input class="button" type="submit" name="login"/>
-            </div>
-         </div>
-         <div id="signin">
-            <section>
-               <b>
-            <p> Användare namn</p></b>
-            <input type="text" name="signin"/>
-            </section>
-<section>
-   <p><b>
-       Lösenord </b>  </p>
-
-                   <input type="password" name="signin"/>
-
-</section>
-<section>
-   <p><b>
-      Födelsedatum </b>  </p>
-
-                  <input type="date" name="signin"/>
-</section>
-<section>
-   <p><b>
-      E-mail</b>   </p>
-
-                  <input type="email" name="signin"/>
-
-</section>
-            <div class="alignflexbottom">
-               <input class="button" type="submit" name="signin">
-            </div>  
-
-         </div>
-        
-         <div class="flex-container">
-            <p><b>ABOUT US <br>
-               Telefon</b> +46-785-5545 <br>
-               <b>Email</b> nigera.prince@scam.tr<br>
-               <b>location</b> this website is all we have
-            </p>
+         <div class="meny-box">
+            <a href="log_sign_in.html"><b></b>
+            <p align="center"><b>log in<br>
+            sing in</b></p></a>
          </div>
       </div>
-   </body>
+      <h2 align="center">"Its only once you start widtheing your horizon you can find paradise"<br></h2>
+      <footer>
+         <p align="center">H.P lovecraft</p>
+      </footer>
+      <div class="container" style="margin-bottom: 0%;padding-right: 5%;">
+         <div class="row">
+            <div class="col-2">
+               <div align="left" class="scrolltable">
+                  <div align="center" class="side-Box-search">
+                     <input align="center" class="search" name="search" placeholder="Search.." type="text">
+                  </div>
+                  <div align="center" class="side-Box">
+                     <div class="scroll-header">
+                        <button class="Weather-Button" id="Weather-Button-mandag" type="button">M</button> <button class="Weather-Button" id="Weather-Button-tisdag" type="button">T</button> <button class="Weather-Button" id="Weather-Button-onsdag" type="button">O</button> <button class="Weather-Button" id="Weather-Button-torsdag" type="button">T</button> <button class="Weather-Button" id="Weather-Button-fredag" type="button">F</button> <button class="Weather-Button" id="Weather-Button-lordag" type="button">S</button> <button class="Weather-Button" id="Weather-Button-sondag" type="button">S</button>
+                     </div>
+                     <div class="scroll-content"><br>
+                     <h4 id="weather-text">23℃</h4><img id="weather-img" src="img/sun.png"></div>
+                  </div>
+                  <div align="center" class="side-Box">
+                     <p>current exchange</p>
+                     <h4 id="valuta"></h4>
+                  </div>
+               </div>
+            </div>
+            <div class="col-8">
+               <div id="login">
+                  <h2><b>logga in</b></h2>
+                  <div class="flex_item">
+                     <p><b>Användarnamn</b></p>
+                  </div>
+                  <div class="flex_item">
+                     <input name="login" type="text">
+                  </div>
+                  <div class="flex_item">
+                     <p><b>Lösenord</b></p>
+                  </div>
+                  <div class="flex_item">
+                     <input name="login" type="password">
+                  </div>
+                  <div class="alignflexbottom">
+                     <input class="button" name="login" type="submit">
+                  </div>
+               </div>
+               <div id="signin">
+                  <section>
+                     <b></b>
+                     <p><b>Användare namn</b></p><input name="signin" type="text">
+                  </section>
+                  <section>
+                     <p><b>Lösenord</b></p><input name="signin" type="password">
+                  </section>
+                  <section>
+                     <p><b>Födelsedatum</b></p><input name="signin" type="date">
+                  </section>
+                  <section>
+                     <p><b>E-mail</b></p><input name="signin" type="email">
+                  </section>
+                  <div class="alignflexbottom">
+                     <input class="button" name="signin" type="submit">
+                  </div>
+               </div>
+            </div>
+            <div class="col-2">
+               <div align="right" class="scrolltable">
+                  <div align="center" class="side-Box">
+                     <p><b>How to travel to cyprus while under lockdown</b></p><a href="">Read more</a>
+                  </div>
+                  <div align="center" class="side-Box">
+                     <p><b>How to driv from the left side to right side</b></p><a href="">Read more</a>
+                  </div>
+                  <div align="center" class="side-Box">
+                     <p><b>how to travel throught the cyperus border</b></p><a href="">Read more</a>
+                  </div>
+               </div>
+            </div>
+            <div align="center" class="flex-container">
+               <p><b>ABOUT US<br>
+               Telefon</b> +46-785-5545<br>
+               <b>Email</b> nigera.prince@scam.tr<br>
+               <b>location</b> this website is all we have</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
 </html>
