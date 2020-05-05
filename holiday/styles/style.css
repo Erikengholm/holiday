@@ -6,6 +6,15 @@ body {
 	width: 100%;
 
 
+
+}
+.container{
+	width: 100%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0%;
+    padding-right: 4%;
 }
 .Meny {
 	display: flex;
